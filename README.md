@@ -3,15 +3,10 @@
 Team Members:
 <ul>
 <li>Kyle Eslick</li>
-
 <li>Zane White</li>
-
 <li>Jeanette Larsen</li>
-
-<li>Amber Cristner</li>
-
+<li>Amber Martinez</li>
 <li>Alyssa Campbell</li>
-
 <li>Tisha Parkinson</li>
 </ul>
 
