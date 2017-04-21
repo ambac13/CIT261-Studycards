@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Me</title>
+    <meta charset="utf-8"/>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <main>
+        <div class="b1">
+            <div class="main">
+                <h1 id="logo">Quiz Me</h1>
+                <br/>
+                <a href="#create" style="text-decoration:none">Create New Quiz</a>
+                <br/>
+                <br/>
+                <br/>
+                <a href="#study" style="text-decoration:none">Study With Quiz</a>
+            </div>
+            <br/>
+        </div>
+
+        <div class="b2">
+            <div class="main">
+                <h1 class="heading">Creation</h1>
+                <br/>
+                <div>
+                    Enter new quiz name: 
+                    <br/>
+                    <input type="text" id="quiz_series">
+                    <br/>
+                    <br/>
+                    <button id="moveon" onclick="add_quiz_series()"> Done </button>
+                    <br/>
+                    <br/>
+                    <br/>
+                    Select quiz:
+                    <br/>
+                    <select id="quiz_name" onchange="loadQuiz()" ></select>
+                    <br/>
+                    <br/> 
+                    <br/> 
+                    Add study card:
+                    <br/>    
+                    Q: <textarea style="width: 300px; height: 100px;" id="quiz_front"></textarea>
+                    <br/>
+                    A: <textarea style="width: 300px; height: 100px;" id="quiz_back"></textarea>
+                    <br/>
+                    <button id="moveon" onclick="add_quiz_card()"> Done </button>
+                </div>
+                <br/>
+            </div>
+        </div>
+
+        <div class="b1">
+            <div class="main">
+                <h1 class="heading">Study</h1>
+                <br/>
+				
+				
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="cardFront" id="cardFront">
+      <p>card1 question question question question question question question question question question question question question question question question question question question question question <p>
+    </div>
+    <div class="cardBack" id="cardBack">
+      <p>QUIZ ME </p>
+    </div>
+  </div>
+</div>
+<!--
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="cardFront">
+      <p> card2 answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer answer  <p>
+    </div>
+    <div class="cardBack">
+      <p> QUIZ ME  </p>
+    </div>
+  </div>
+</div> -->
+				<!--<button id = "got_it"> Got it </button>-->
+				<button id = "flip"> Flip </button>
+                <button id = "next" onclick = "cardInfo()"> Next </button>
+				<button id = "check" onclick = "cardInfo(true)" > Check </button>
+                <br/>
+                <br/>
+            </div>
+        </div>
+
+    </main>
+
+    <!--<div class="b">
+        <footer>
+            <ul>
+                <li>All content © 2016 Quiz Me</li>
+            </ul>   
+        </footer>
+    </div>-->
+			<script type="text/javascript" src="quiz.js"></script>
+	</body>
+</html>

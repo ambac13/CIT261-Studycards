@@ -1,0 +1,83 @@
+{
+    "ComputerHardwareQuiz":[
+            {
+               "front":"What type of memory does a computer use?",
+               "back":"RAM Random Access memory"
+            },
+
+            {
+               "front":"How does a CPU work?",
+               "back":"The central processing unit, excecutes instructions and processes calculations"
+            },
+
+            {
+               "front":"What is a GPU?",
+               "back":"Graphic proccessing unit"
+            },
+
+            {
+               "front":"How does a computer communicate",
+               "back":"With 1's and 0's to turn electrical circuits on and off"
+            }
+         ],
+		 "JavaScriptQuiz":[
+            {
+               "front":"What tags do you need in HTML to us JavaScript? ",
+               "back":"<script> </script>"
+            },
+
+            {
+               "front":"How would you declare a variable in JavaScript? ",
+               "back":" var name ;"
+            },
+
+            {
+               "front":"How do you create a function in JavaScript? ",
+               "back":"function name(){ }"
+            },
+
+            {
+               "front":"When creating JavaScript in an HTML document where would you put Script tags?",
+               "back":" In the Head or Body of the HTML"
+            }
+         ],
+		 "GeographyQuiz":[
+            {
+               "front":"Which continent has the highest mountains?",
+               "back":"Asia, with the Himalayan mountains."
+            },
+
+            {
+               "front":"What is the worlds longest river?",
+               "back":"The Nile, being 4,258 miles long"
+            },
+
+            {
+               "front":"Which country has the most islands?",
+               "back":"Canada with more than 300,000 islands."
+            },
+
+            {
+               "front":"What language is spoken by the most people?",
+               "back":"Mandarin Chinese, it is spoken by about 1 billion people."
+            }
+         ],
+    "MathQuiz":[
+            {
+               "front":"How many edges does a cube have?",
+               "back":"12"
+            },
+            {
+               "front":"How many movements does it take to cut a pie into 8 pieces?",
+               "back":"3"
+            },
+            {
+               "front":"The internal angles of triangles always add up to what?",
+               "back":"180 degrees"
+            },
+            {
+               "front":"What is the smallest prime number?",
+               "back":"2"
+            }
+         ]
+}

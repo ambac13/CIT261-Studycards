@@ -1,0 +1,139 @@
+/* yellow background - 1st and 3rd section */
+body{
+	background-color: #f0eb44;
+}
+
+/* Quiz Me logo styling */
+#logo{
+	font-family: 'Oswald', sans-serif;	
+	font-weight: bold;
+	font-size: 60px;
+}
+
+/* each section's main content styling */
+.main{
+	font-family: 'Oswald', sans-serif;
+	max-width: 80%;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+}
+
+/* selects all elements and sets margin */
+*{
+	margin: 0 auto;
+}
+
+/* content with dark background - 2nd section */
+.b2{
+	background-color: #212c32;
+	width: 100%;
+	color: #FFFFFF;
+}
+
+/* 1st and 3rd section font color */
+.b1{
+	color: #212c32;
+}
+
+/* */
+.flip-container {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-o-perspective: 1000;
+	perspective: 1000;
+
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+}
+
+/* */
+.flip-container:hover .flipper,  
+.flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+/* */
+.flip-container, .cardFront, .cardBack {
+	width: 400px;
+	height: 300px;
+}
+
+/* */
+.flipper {
+	position: relative;
+
+	-webkit-transition: 0.5s;
+	-webkit-transform-style: preserve-4d;
+	-moz-transition: 0.5s;
+	-moz-transform-style: preserve-4d;
+	-o-transition: 0.5s;
+	-o-transform-style: preserve-4d;
+	transition: 0.5s;
+	transform-style: preserve-4d;
+}
+
+/* */
+.cardBack {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* */
+.cardFront {
+	background-color: #212c32;
+
+	webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* */
+.cardBack {
+	background-color: #212c32;
+
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+/* */
+.cardFront p  {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+
+	webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* */
+.cardBack p  {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+
+	webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
