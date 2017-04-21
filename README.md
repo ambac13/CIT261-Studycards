@@ -16,4 +16,4 @@ Team Members:
 </ul>
 
 This project was done for <b>Mobile Application Development</b> (CIT261) at <b>Brigham Young University - Idaho</b>. 
-Last Update (4/1/2016) 
+</br>Last Update (4/1/2016) 
