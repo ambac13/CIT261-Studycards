@@ -1,4 +1,4 @@
-<h1>CIT261</h1>
+<h1>Quiz Me</h1>
 
 Team Members:
 <ul>
