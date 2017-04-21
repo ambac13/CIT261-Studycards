@@ -1,15 +1,16 @@
 <h1>CIT261</h1>
 
 Team Members:
+<ul>
+<li>Kyle Eslick</li>
 
-Kyle Eslick
+<li>Zane White</li>
 
-Zane White
+<li>Jeanette Larsen</li>
 
-Jeanette Larsen
+<li>Amber Cristner</li>
 
-Amber Cristner
+<li>Alyssa Campbell</li>
 
-Alyssa Campbell
-
-Tisha Parkinson
+<li>Tisha Parkinson</li>
+</ul>
